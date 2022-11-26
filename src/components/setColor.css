@@ -1,0 +1,31 @@
+div.color-form {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.color-form form {
+  width: 100%;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: #ffffff;
+}
+
+.color-form form input {
+  width: 100%;
+  background-color: #d1d1d1;
+  border: 0;
+  font-size: 2rem;
+}
+
+.color-form form p {
+  background-color: #d1d1d1;
+  font-size: 2rem;
+}
+
+.color-form form p.error {
+  background-color: #c44f4f;
+}
